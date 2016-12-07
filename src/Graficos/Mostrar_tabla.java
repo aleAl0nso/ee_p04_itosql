@@ -208,13 +208,13 @@ public class Mostrar_tabla extends javax.swing.JFrame {
                 
         }
         
-      //------buenoString datos="";
+      String datos="";
         //Tabla datosTabla=(listaDeTablas.buscarTabla(""+jComboBox1.getSelectedItem()));
         //String datos=""+datosTabla.getRegistros().recorrer2(datosTabla.getRegistros().getInicio());
          
-         //----buenodatos+=" "+listaDeTablas.buscarTabla(""+jComboBox1.getSelectedItem()).getRegistros().toString();
+         datos+=" "+listaDeTablas.buscarTabla(""+jComboBox1.getSelectedItem()).getRegistros().toString();
        
-       //---bueno jTextArea1.setText(datos);
+       jTextArea1.setText(datos);
     }//GEN-LAST:event_jButton1ActionPerformed
     /**
      * Este es el metodo del JComboBox
